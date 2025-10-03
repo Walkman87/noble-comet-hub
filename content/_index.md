@@ -29,6 +29,22 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
+  - block: stats
+    content:
+      items:
+        - statistic: "50K+"
+          description: "Happy Users"
+        - statistic: "99.9%"
+          description: "Uptime"
+        - statistic: "24/7"
+          description: "Support"
+    design:
+      background:
+        color: "gray-900"
+        text_color_light: true
+      columns: "3"
+
   - block: markdown
     content:
       title: '📚 My Research'
