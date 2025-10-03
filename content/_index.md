@@ -30,6 +30,22 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
 
+ - block: testimonials
+    content:
+      title: "What Our Users Say"
+      items:
+        - name: "John Doe"
+          role: "Product Manager"
+          organization: "Tech Company"
+          avatar: "path/to/avatar.jpg"
+          content: "This platform has revolutionized how we build websites!"
+        - name: "Jane Smith"
+          role: "Designer"
+          organization: "Creative Agency"
+          content: "The blocks are beautiful and so easy to customize."
+    design:
+      columns: "2"
+
   - block: stats
     content:
       items:
